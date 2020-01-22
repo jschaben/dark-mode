@@ -2,7 +2,7 @@ import React from 'react';
 import useDarkMode from "../hooks/useDarkMode";
 
 const darkKey = true;
-const darkInitial = "isDM";
+const darkInitial = "isDarkMode";
 
 const Navbar = () => {
   const [darkMode, toggleDarkMode] = useDarkMode(darkKey, darkInitial);
